@@ -81,6 +81,8 @@
 
 
             </div>
+            <br>
+            <button id="back" class="btn btn-danger text-center"><-- Back</button>
         </div>
 
 
@@ -155,6 +157,13 @@
 
 
 
+
+        })
+        const b = document.getElementById("back");
+        b.addEventListener("click", function () {
+            const buton = document.getElementById("trans-area");
+            buton.style.display = "none";
+            const bc = document.getElementById("login").style.display = "block";
 
         })
 
