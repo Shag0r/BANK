@@ -1,0 +1,52 @@
+body {
+    padding: 100px;
+}
+
+.bank-title {
+    text-align: center;
+}
+
+.login-area {
+    /**display: none;
+    /*will be removed */
+    padding: 20px;
+    margin-top: 80px;
+    border-radius: 20px;
+    box-shadow: -8px 8px 15px orange;
+
+}
+
+.login-area input {
+    box-shadow: -8px 3px 8px crimson;
+}
+
+#trans-area {
+    display: none;
+}
+
+.deposit {
+    background-color: slateblue;
+}
+
+.withdraw {
+    background-color: lightsalmon;
+}
+
+.balance {
+    background-color: orange;
+}
+
+.des {
+    margin: 0 20px;
+    color: antiquewhite;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/*for deposite and submit btn*/
+.d-btn {
+    padding: 30px;
+    margin-top: 80px;
+    border-radius: 20px;
+    box-shadow: -8px 8px 15px orange;
+}
